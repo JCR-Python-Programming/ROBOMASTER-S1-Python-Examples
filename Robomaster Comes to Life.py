@@ -50,7 +50,7 @@ led=led_ctrl
 define=rm_define
 
 rotate_speed=(20,30,40,50,60)
-scan_speed=(40);drive_speed=(.1)
+scan_speed=(40);drive_speed=(.2)
 wheel_degree=(0,180,90,-90,45,-45,135,-135)
 led1,led2=(0,255);blink_rate=(2,3,4,5,6)
 seconds=1
@@ -495,23 +495,18 @@ def start():
 
         elif randfunc==2:                
             gimbal_free_mode()
-            continue
 
         elif randfunc==3:                
             chassis_free_mode()
-            continue
 
         elif randfunc==4:                
             blaster_fire()
-            continue
 
         elif randfunc==5:                
             sleep_mode()
-            continue
 
         if randscan==15:                
             scan_search()
-            continue
 
 def sound_recognized_applause_twice(msg):
 
