@@ -7,8 +7,8 @@
 led=led_ctrl
 media=media_ctrl
 define=rm_define
-delay=.1
 l1,l2=0,255
+delay=.1
 
 RGB=[
     [],         # Empty list box
