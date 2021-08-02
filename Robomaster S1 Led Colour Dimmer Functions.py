@@ -17,7 +17,6 @@ def start():
             led.set_top_led(define.armor_top_all,i,i,i,define.effect_always_on) # White
             led.set_bottom_led(define.armor_bottom_all,i,i,i,define.effect_always_on) # White
 
-
     def rgb_red_dimmer():        
         for i in range(l1,l2):
             led.set_top_led(define.armor_top_all,i,l1,l1,define.effect_always_on) # Red
